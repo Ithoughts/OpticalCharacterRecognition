@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE952C91B0D85D8000B70BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE952C81B0D85D8000B70BD /* AppDelegate.swift */; };
+		DAE952CB1B0D85D8000B70BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE952CA1B0D85D8000B70BD /* ViewController.swift */; };
+		DAE952D01B0D85D8000B70BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE952CF1B0D85D8000B70BD /* Images.xcassets */; };
+		DAE952D31B0D85D8000B70BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE952D11B0D85D8000B70BD /* LaunchScreen.xib */; };
+		DAE952DF1B0D85D8000B70BD /* OpticalCharacterRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE952DE1B0D85D8000B70BD /* OpticalCharacterRecognitionTests.swift */; };
+		DAE952EA1B0D86CC000B70BD /* Envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE952E81B0D86CC000B70BD /* Envelope.png */; };
+		DAE952EB1B0D86CC000B70BD /* Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = DAE952E91B0D86CC000B70BD /* Swap.png */; };
+		DAE952ED1B0D8725000B70BD /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = DAE952EC1B0D8725000B70BD /* tessdata */; };
+		DAE952EF1B0D8737000B70BD /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE952EE1B0D8737000B70BD /* TesseractOCR.framework */; };
+		DAE952F51B0D883C000B70BD /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE952F41B0D883C000B70BD /* libstdc++.dylib */; };
+		DAE952F71B0D8846000B70BD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE952F61B0D8846000B70BD /* CoreImage.framework */; };
+		DAE952F91B0D89F9000B70BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE952F81B0D89F9000B70BD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE952D91B0D85D8000B70BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE952BB1B0D85D7000B70BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE952C21B0D85D8000B70BD;
+			remoteInfo = OpticalCharacterRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE952C31B0D85D8000B70BD /* OpticalCharacterRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpticalCharacterRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE952C71B0D85D8000B70BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE952C81B0D85D8000B70BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE952CA1B0D85D8000B70BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE952CF1B0D85D8000B70BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAE952D21B0D85D8000B70BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAE952D81B0D85D8000B70BD /* OpticalCharacterRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpticalCharacterRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE952DD1B0D85D8000B70BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE952DE1B0D85D8000B70BD /* OpticalCharacterRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalCharacterRecognitionTests.swift; sourceTree = "<group>"; };
+		DAE952E81B0D86CC000B70BD /* Envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Envelope.png; sourceTree = "<group>"; };
+		DAE952E91B0D86CC000B70BD /* Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swap.png; sourceTree = "<group>"; };
+		DAE952EC1B0D8725000B70BD /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		DAE952EE1B0D8737000B70BD /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		DAE952F01B0D87A0000B70BD /* OpticalCharacterRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpticalCharacterRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAE952F41B0D883C000B70BD /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		DAE952F61B0D8846000B70BD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		DAE952F81B0D89F9000B70BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE952C01B0D85D8000B70BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE952F71B0D8846000B70BD /* CoreImage.framework in Frameworks */,
+				DAE952F51B0D883C000B70BD /* libstdc++.dylib in Frameworks */,
+				DAE952EF1B0D8737000B70BD /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE952D51B0D85D8000B70BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE952BA1B0D85D7000B70BD = {
+			isa = PBXGroup;
+			children = (
+				DAE952F61B0D8846000B70BD /* CoreImage.framework */,
+				DAE952F41B0D883C000B70BD /* libstdc++.dylib */,
+				DAE952C51B0D85D8000B70BD /* OpticalCharacterRecognition */,
+				DAE952DB1B0D85D8000B70BD /* OpticalCharacterRecognitionTests */,
+				DAE952C41B0D85D8000B70BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE952C41B0D85D8000B70BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE952C31B0D85D8000B70BD /* OpticalCharacterRecognition.app */,
+				DAE952D81B0D85D8000B70BD /* OpticalCharacterRecognitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE952C51B0D85D8000B70BD /* OpticalCharacterRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				DAE952EE1B0D8737000B70BD /* TesseractOCR.framework */,
+				DAE952C81B0D85D8000B70BD /* AppDelegate.swift */,
+				DAE952CA1B0D85D8000B70BD /* ViewController.swift */,
+				DAE952F81B0D89F9000B70BD /* Main.storyboard */,
+				DAE952CF1B0D85D8000B70BD /* Images.xcassets */,
+				DAE952D11B0D85D8000B70BD /* LaunchScreen.xib */,
+				DAE952C61B0D85D8000B70BD /* Supporting Files */,
+				DAE952F01B0D87A0000B70BD /* OpticalCharacterRecognition-Bridging-Header.h */,
+			);
+			path = OpticalCharacterRecognition;
+			sourceTree = "<group>";
+		};
+		DAE952C61B0D85D8000B70BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE952EC1B0D8725000B70BD /* tessdata */,
+				DAE952E81B0D86CC000B70BD /* Envelope.png */,
+				DAE952E91B0D86CC000B70BD /* Swap.png */,
+				DAE952C71B0D85D8000B70BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE952DB1B0D85D8000B70BD /* OpticalCharacterRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE952DE1B0D85D8000B70BD /* OpticalCharacterRecognitionTests.swift */,
+				DAE952DC1B0D85D8000B70BD /* Supporting Files */,
+			);
+			path = OpticalCharacterRecognitionTests;
+			sourceTree = "<group>";
+		};
+		DAE952DC1B0D85D8000B70BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE952DD1B0D85D8000B70BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE952C21B0D85D8000B70BD /* OpticalCharacterRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE952E21B0D85D8000B70BD /* Build configuration list for PBXNativeTarget "OpticalCharacterRecognition" */;
+			buildPhases = (
+				DAE952BF1B0D85D8000B70BD /* Sources */,
+				DAE952C01B0D85D8000B70BD /* Frameworks */,
+				DAE952C11B0D85D8000B70BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpticalCharacterRecognition;
+			productName = OpticalCharacterRecognition;
+			productReference = DAE952C31B0D85D8000B70BD /* OpticalCharacterRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE952D71B0D85D8000B70BD /* OpticalCharacterRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE952E51B0D85D8000B70BD /* Build configuration list for PBXNativeTarget "OpticalCharacterRecognitionTests" */;
+			buildPhases = (
+				DAE952D41B0D85D8000B70BD /* Sources */,
+				DAE952D51B0D85D8000B70BD /* Frameworks */,
+				DAE952D61B0D85D8000B70BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE952DA1B0D85D8000B70BD /* PBXTargetDependency */,
+			);
+			name = OpticalCharacterRecognitionTests;
+			productName = OpticalCharacterRecognitionTests;
+			productReference = DAE952D81B0D85D8000B70BD /* OpticalCharacterRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE952BB1B0D85D7000B70BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Beautiful Reading";
+				TargetAttributes = {
+					DAE952C21B0D85D8000B70BD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DAE952D71B0D85D8000B70BD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DAE952C21B0D85D8000B70BD;
+					};
+				};
+			};
+			buildConfigurationList = DAE952BE1B0D85D7000B70BD /* Build configuration list for PBXProject "OpticalCharacterRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE952BA1B0D85D7000B70BD;
+			productRefGroup = DAE952C41B0D85D8000B70BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE952C21B0D85D8000B70BD /* OpticalCharacterRecognition */,
+				DAE952D71B0D85D8000B70BD /* OpticalCharacterRecognitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE952C11B0D85D8000B70BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE952EA1B0D86CC000B70BD /* Envelope.png in Resources */,
+				DAE952EB1B0D86CC000B70BD /* Swap.png in Resources */,
+				DAE952D31B0D85D8000B70BD /* LaunchScreen.xib in Resources */,
+				DAE952F91B0D89F9000B70BD /* Main.storyboard in Resources */,
+				DAE952D01B0D85D8000B70BD /* Images.xcassets in Resources */,
+				DAE952ED1B0D8725000B70BD /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE952D61B0D85D8000B70BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE952BF1B0D85D8000B70BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE952CB1B0D85D8000B70BD /* ViewController.swift in Sources */,
+				DAE952C91B0D85D8000B70BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE952D41B0D85D8000B70BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE952DF1B0D85D8000B70BD /* OpticalCharacterRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE952DA1B0D85D8000B70BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE952C21B0D85D8000B70BD /* OpticalCharacterRecognition */;
+			targetProxy = DAE952D91B0D85D8000B70BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE952D11B0D85D8000B70BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE952D21B0D85D8000B70BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE952E01B0D85D8000B70BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE952E11B0D85D8000B70BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE952E31B0D85D8000B70BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpticalCharacterRecognition",
+				);
+				INFOPLIST_FILE = OpticalCharacterRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpticalCharacterRecognition/OpticalCharacterRecognition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE952E41B0D85D8000B70BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpticalCharacterRecognition",
+				);
+				INFOPLIST_FILE = OpticalCharacterRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpticalCharacterRecognition/OpticalCharacterRecognition-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DAE952E61B0D85D8000B70BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpticalCharacterRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpticalCharacterRecognition.app/OpticalCharacterRecognition";
+			};
+			name = Debug;
+		};
+		DAE952E71B0D85D8000B70BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpticalCharacterRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpticalCharacterRecognition.app/OpticalCharacterRecognition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE952BE1B0D85D7000B70BD /* Build configuration list for PBXProject "OpticalCharacterRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE952E01B0D85D8000B70BD /* Debug */,
+				DAE952E11B0D85D8000B70BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE952E21B0D85D8000B70BD /* Build configuration list for PBXNativeTarget "OpticalCharacterRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE952E31B0D85D8000B70BD /* Debug */,
+				DAE952E41B0D85D8000B70BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAE952E51B0D85D8000B70BD /* Build configuration list for PBXNativeTarget "OpticalCharacterRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE952E61B0D85D8000B70BD /* Debug */,
+				DAE952E71B0D85D8000B70BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE952BB1B0D85D7000B70BD /* Project object */;
+}
